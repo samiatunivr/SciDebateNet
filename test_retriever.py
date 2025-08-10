@@ -1,4 +1,3 @@
-
 import tempfile
 from scidebate_demo import Retriever, load_docs
 

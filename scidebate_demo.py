@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
 """
-
+scidebate_demo.py
 Enhanced multi-agent debate pipeline with OpenAI integration, strict prompting, logging, and basic JSON outputs.
 
 Usage:
@@ -207,7 +206,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
-
---- FILE: streamlit_app.py
-```

@@ -32,5 +32,3 @@ st.sidebar.markdown('### Existing debate results')
 for f in sorted(Path('.').glob('debate_result_*.json'))[-5:]:
     if st.sidebar.button(f.name):
         st.json(json.loads(f.read_text()))
-
-```
